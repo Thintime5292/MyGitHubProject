@@ -1,10 +1,10 @@
 package com.atguigu.gmall.user.service.impl;
 
-import com.atguigu.gmall.user.bean.UmsMember;
-import com.atguigu.gmall.user.bean.UmsMemberReceiveAddress;
+import com.atguigu.gmall.service.UserService;
+import com.atguigu.gmall.bean.UmsMember;
+import com.atguigu.gmall.bean.UmsMemberReceiveAddress;
 import com.atguigu.gmall.user.mapper.AddressMapper;
 import com.atguigu.gmall.user.mapper.UserMapper;
-import com.atguigu.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
@@ -33,7 +33,6 @@ public class UserServiceImpl implements UserService {
         /*或者是直接新建一个地址对象
          * UmsMemberReceiveAddress address = new UmsMemberReceiveAddress（）；
          * address.setMemberId(memberId);
-         *
          * */
         List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = addressMapper.selectByExample(addess);
         return umsMemberReceiveAddresses;

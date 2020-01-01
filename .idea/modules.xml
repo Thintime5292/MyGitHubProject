@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyGitHubProject.iml" filepath="$PROJECT_DIR$/.idea/MyGitHubProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-api/gmall-api.iml" filepath="$PROJECT_DIR$/gmall-api/gmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-commons-util/gmall-commons-util.iml" filepath="$PROJECT_DIR$/gmall-commons-util/gmall-commons-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-parent/gmall-parent.iml" filepath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" filepath="$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user/gmall-user.iml" filepath="$PROJECT_DIR$/gmall-user/gmall-user.iml" />
+    </modules>
+  </component>
+</project>
